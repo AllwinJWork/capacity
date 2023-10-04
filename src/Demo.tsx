@@ -10,9 +10,9 @@ const Demo = () => {
       {
         element: "#tour-example",
         popover: {
-          title: "Animated Tour Example",
+          title: "Click to view more information",
           description:
-            "Here is the code example showing animated tour. Let's walk you through it.",
+            "Learn about chrome.",
           side: "left",
           align: "start",
         },
@@ -75,9 +75,11 @@ const Demo = () => {
         },
       },
     ],
+    
   });
-
   driverObj.drive();
+
+ 
 
   return (
     <div>
@@ -108,6 +110,8 @@ const Demo = () => {
       </article>
     </div>
   );
+  
 };
+
 
 export default Demo;

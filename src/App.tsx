@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import BrowserRouter as Router
+import { BrowserRouter as Router, Route, Routes, } from "react-router-dom"; // Import BrowserRouter as Router
 
 import Navbar from "./Navbar";
 import Demo from "./Demo";
+import Form from "./Form";
 
 
 
@@ -16,6 +16,7 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/demo" element={<Demo/>} />
+          <Route path="/form" element={<Form/>} />
          
         </Routes>
       </div>

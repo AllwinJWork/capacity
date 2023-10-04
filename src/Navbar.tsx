@@ -10,6 +10,8 @@ import { Link, useMatch,useResolvedPath } from 'react-router-dom';
      
         <ul>
            <CustomLink to='/demo'>Demo</CustomLink>
+           <CustomLink to='/form'>Form</CustomLink>
+           
            
 
         </ul>
